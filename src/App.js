@@ -3,6 +3,7 @@ import './App.css';
 
 import * as useStateComponent from './Components/useStates';
 import * as useEffectComponent from './Components/useEffects';
+import * as useContextComponent from './Components/useContexts';
 
 import * as Overreacted from './Overreacted';
 
@@ -23,6 +24,7 @@ function App() {
       {/* <useEffectComponent.MouseHookContainer /> */}
       {/* <useEffectComponent.IntervalCounterHook /> */}
       {/* <useEffectComponent.DataFetchingOne /> */}
+      {/* <useContextComponent.ParentComponent /> */}
       
     </div>
   );

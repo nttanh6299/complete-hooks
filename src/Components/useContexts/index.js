@@ -1,0 +1,1 @@
+export { ParentComponent } from './ParentComponent';
