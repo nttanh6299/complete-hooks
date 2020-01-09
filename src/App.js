@@ -4,6 +4,7 @@ import './App.css';
 import * as useStateComponent from './Components/useStates';
 import * as useEffectComponent from './Components/useEffects';
 import * as useContextComponent from './Components/useContexts';
+import * as useReducerComponent from './Components/useReducers';
 
 import * as Overreacted from './Overreacted';
 
@@ -25,7 +26,8 @@ function App() {
       {/* <useEffectComponent.IntervalCounterHook /> */}
       {/* <useEffectComponent.DataFetchingOne /> */}
       {/* <useContextComponent.ParentComponent /> */}
-      
+      {/* <useReducerComponent.CounterOne /> */}
+      <useReducerComponent.ParentComponent />
     </div>
   );
 }
