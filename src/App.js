@@ -27,7 +27,8 @@ function App() {
       {/* <useEffectComponent.DataFetchingOne /> */}
       {/* <useContextComponent.ParentComponent /> */}
       {/* <useReducerComponent.CounterOne /> */}
-      <useReducerComponent.ParentComponent />
+      {/* <useReducerComponent.ParentComponent /> */}
+      <useReducerComponent.DataFetchingOne />
     </div>
   );
 }
