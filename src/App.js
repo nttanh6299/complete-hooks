@@ -5,6 +5,7 @@ import * as useStateComponent from './Components/useStates';
 import * as useEffectComponent from './Components/useEffects';
 import * as useContextComponent from './Components/useContexts';
 import * as useReducerComponent from './Components/useReducers';
+import * as useCallbackComponent from './Components/useCallbacks';
 
 import * as Overreacted from './Overreacted';
 
@@ -28,7 +29,8 @@ function App() {
       {/* <useContextComponent.ParentComponent /> */}
       {/* <useReducerComponent.CounterOne /> */}
       {/* <useReducerComponent.ParentComponent /> */}
-      <useReducerComponent.DataFetchingOne />
+      {/* <useReducerComponent.DataFetchingOne /> */}
+      {/* <useCallbackComponent.ParentComponent /> */}
     </div>
   );
 }
