@@ -8,6 +8,7 @@ import * as useReducerComponent from './Components/useReducers';
 import * as useCallbackComponent from './Components/useCallbacks';
 import * as useMemoComponent from './Components/useMemos';
 import * as useRefComponent from './Components/useRefs';
+import * as useCustomHookComponent from './Components/useCustomHooks';
 
 import * as Overreacted from './Overreacted';
 
@@ -35,7 +36,11 @@ function App() {
       {/* <useCallbackComponent.ParentComponent /> */}
       {/* <useMemoComponent.Counter /> */}
       {/* <useRefComponent.FocusInput /> */}
-      <useRefComponent.HookTimer />
+      {/* <useRefComponent.HookTimer /> */}
+      {/* <useCustomHookComponent.DocTitle /> */}
+      {/* <useCustomHookComponent.CounterOne />
+      <useCustomHookComponent.CounterTwo /> */}
+      {/* <useCustomHookComponent.UserForm /> */}
     </div>
   );
 }
