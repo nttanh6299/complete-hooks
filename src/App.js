@@ -7,6 +7,7 @@ import * as useContextComponent from './Components/useContexts';
 import * as useReducerComponent from './Components/useReducers';
 import * as useCallbackComponent from './Components/useCallbacks';
 import * as useMemoComponent from './Components/useMemos';
+import * as useRefComponent from './Components/useRefs';
 
 import * as Overreacted from './Overreacted';
 
@@ -32,7 +33,9 @@ function App() {
       {/* <useReducerComponent.ParentComponent /> */}
       {/* <useReducerComponent.DataFetchingOne /> */}
       {/* <useCallbackComponent.ParentComponent /> */}
-      <useMemoComponent.Counter />
+      {/* <useMemoComponent.Counter /> */}
+      {/* <useRefComponent.FocusInput /> */}
+      <useRefComponent.HookTimer />
     </div>
   );
 }
